@@ -1,6 +1,4 @@
 function createStatementData(invoice, plays) {
-  console.log(`createStatementData====`);
-  console.log(invoice);
   const statementData = {};
   statementData.customer = invoice.customer;
   statementData.performances = invoice.performances.map(enrichPerformance);

@@ -1,7 +1,6 @@
 const createStatementData = require("./createStatementData");
 
 function htmlStatement(invoice, plays) {
-  console.log(invoice);
   return renderHtml(createStatementData(invoice, plays));
 }
 
